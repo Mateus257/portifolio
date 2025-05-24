@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus Barros │ Desenvolvedor Freelancer</title>
+    <meta name="description"
+        content="">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80XVHS2NWN">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-80XVHS2NWN');
+    </script>
+
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '756368293168994');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=756368293168994&ev=PageView&noscript=1" /></noscript>
+
+    <style>
+        body, html {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1; 
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            margin-top: 40vh;
+            font-size: 2rem;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="side-background"></div>
+    <video autoplay muted loop id="video-background">
+        <source src="./images/code.mp4" type="video/mp4">
+    </video>
+
+    <div class="loader"></div>
+
+    <header id="header" class="header">
+        <div class="container-header">
+            <div class="logo">
+                <a href='/'>Mateus <span class="destaque">│Dev.</span></a>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="menu-navegacao">
+                <i class="fa-solid fa-times close-icon"></i>
+                <ul class="lista-navegacao">
+                    <li><a class='fade-left' href='./index.html'>INÍCIO</a></li>
+                    <li><a class='fade-up' href='./sobre.html'>SOBRE</a></li>
+                    <li><a class='fade-right' href='./serviços.html'>SERVIÇOS</a></li>
+                    <li><a class='fade-down' href='./projetos.html'>PROJETOS</a></li>
+                    <li><a class='fade-left' href='./contato.html'>CONTATO</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+<section id="contact" class="contact">
+    <div class="container-contact">
+        <div class="headline" data-aos="fade-up" data-aos-delay="100">
+            <span class="destaque">Contato</span>
+            <h1>Entre em Contato</h1>
+        </div>
+        <div class="content-contact">
+            <div class="left-contact" data-aos="fade-right" data-aos-delay="200">
+                <div class="text-contact">
+                    <h1>Pronto para desenvolver</h1>
+                    <p>Soluções simples, eficientes e focadas no que importa.</p>
+                    
+                    <ul class="selling-points">
+                        <li><i class="fa-solid fa-check"></i> <strong>Comprometimento</strong> - Entrega de projetos dentro dos prazos com qualidade</li>
+                        <li><i class="fa-solid fa-check"></i> <strong>Versatilidade</strong> - Capacidade de aprender novas tecnologias rapidamente</li>
+                        <li><i class="fa-solid fa-check"></i> <strong>Solução de problemas</strong> - Mentalidade analítica para desafios técnicos</li>
+                        <li><i class="fa-solid fa-check"></i> <strong>Trabalho em equipe</strong> - Boa comunicação e colaboração em projetos</li>
+                    </ul>
+                    
+                    <div class="cta-buttons">
+                        <a href="./files/Mateus Barros.pdf" download class="btn-download" style="color: #90EE90;">
+                            <i class="fa-solid fa-download"></i> Baixar Currículo
+                        </a>
+
+                    </div>
+                    
+                </div>
+                <div class="list-contact">
+                    <span class="destaque">Contate-me</span>
+                    <div class="container-list">
+                        <ul>
+                            <li><i class="fa-solid fa-envelope"></i> Email: mateusbarros257@gmail.com</li>
+                            <li><i class="fa-solid fa-phone"></i> Telefone: +55 61 99295-7166</li>
+                            <li><i class="fa-solid fa-calendar-check"></i> Disponível para entrevistas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="redes-sociais-contato">
+                    <span class="destaque">Conecte-se comigo:</span>
+                    <a href="https://github.com/Mateus257" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mateusbarros257/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <p>Todos os direitos reservados<br />Desenvolvido <span class="destaque">Mateus│Dev.</span></p>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/textoanimation.js"></script>
+    <script src="./js/particulas.js"></script>
+    <script src="./js/page.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        AOS.init();
+
+    </script>
+
+</body>
+
+</html>
